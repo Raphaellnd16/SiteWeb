@@ -1,0 +1,346 @@
+body {
+	font-family: "Inter", sans-serif;
+	margin: 0;
+    padding: 0;
+	background-color: #fff;
+	color: #050316;
+    line-height: 1.6;
+}
+::selection {
+	background-color: #2b48ee;
+	color: #fff;
+}
+.project-container {
+    padding: 45px 64px;
+}
+.close-btn {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    background: none;
+    border: none;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #050316;
+    transition: transform 0.3s;
+}
+.close-btn:hover {
+    color: #2b48ee;
+    transform: scale(1.05);
+    z-index: 10;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 800;
+}
+.subtitle {
+    color: #2b48ee;
+    font-size: 24px;
+	font-weight: 700;
+    margin: 5px 0 20px;
+}
+.project-image img {
+    max-width: 1200px;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+}
+.section {
+    gap: 24px;
+}
+.section h2 {
+    margin-top: 0;
+    font-weight: 700;
+	font-size: 24px;
+}
+.section p {
+    font-size: 18px;
+	font-weight: 600;
+	line-height: 29px; 
+    color: rgba(0, 0, 0, 0.75);
+	word-wrap: break-word;
+}
+.timeline {
+    position: relative;
+    margin-top: 20px;
+}
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #050316;
+    gap: 32px;
+}
+.timeline-content {
+    position: relative;
+    background: white;
+    padding: 10px 32px;
+    border-radius: 18px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.timeline-content:hover .timeline-text p, .timeline-content:hover .timeline-liv p, .timeline-content:hover .timeline-state p, .timeline-content:hover {
+    color: #2b48ee;
+}
+.timeline-content:hover {
+    transform: scale(1.025);
+    z-index: 10;
+}
+.timeline-icon {
+    font-size: 46px;
+    font-weight: 800;
+}
+.timeline-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.timeline-text p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 600;
+}
+.timeline-state p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #050316;
+    padding-left: 600px;
+}
+.timeline-liv p {
+    font-size: 32px;
+    font-weight: 700;
+    color: #050316;
+    position: absolute;
+    right: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+}
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+.tag {
+    background: #2b48ee;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+.tag:hover {
+    transform: scale(1.01);
+    z-index: 10;
+}
+
+.footer {
+  	align-self: stretch;
+  	background-color: #2b48ee;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	align-items: center;
+  	padding: 0 64px;
+  	font-size: 24px;
+  	color: #fff;
+}
+.footer .container {
+  	flex: 1;
+  	border-top: 1px solid rgba(255, 255, 255, 0.1);
+  	box-sizing: border-box;
+  	display: flex;
+  	align-items: center;
+	justify-content: center;
+  	padding: 45px 0px;
+  	gap: 120px;
+  	max-width: 100%;
+}
+.footer-content {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	gap: 24px;
+}
+.footer-title {
+  	width: 100%;
+  	display: flex;
+  	align-items: center;
+	text-align: center;
+}
+.footer-title .title {
+  	flex: 1;
+  	position: relative;
+  	letter-spacing: -0.32px;
+  	line-height: 145%;
+	font-size: 32px;
+  	font-weight: 800;
+}
+.footer-content .subtitle{
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 24px;
+  	line-height: 145%;
+  	font-weight: 600;
+    color: #fff;
+}
+.footer-content .social-links {
+  	display: flex;
+  	align-items: center;
+  	gap: 24px;
+}
+.footer-content .social-links .social-link {
+  	font-size: 24px;
+	font-weight: 600;
+  	position: relative;
+	cursor: pointer;
+	text-decoration: none;
+	color: #fff;
+	transition: transform 0.3s; 
+}
+.footer-content .social-links .social-link:hover {
+    transform: scale(1.05); 
+    z-index: 10; 
+}
+.social-links-wrapper {
+    position: relative; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0; 
+}
+.message-copie {
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 6px 12px;
+    border-radius: 12px;
+    opacity: 0; 
+    margin-top: 4px; 
+    pointer-events: none; 
+}
+.message-copie:not(:empty) {
+    opacity: 1;
+}
+.footer-content p {
+	font-size: 18px;
+	font-weight: 700;
+}
+
+@media (max-width: 1400px) {
+    .project-container {
+        padding: 30px 50px;
+    }
+
+    header h1 {
+        font-size: 56px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .section h2 {
+        font-size: 24px;
+    }
+
+    .section p {
+        font-size: 18px;
+    }
+
+    .timeline-content {
+        flex-direction: row;
+        align-items: center;
+        padding: 15px 30px;
+    }
+
+    .timeline-icon {
+        font-size: 40px;
+    }
+
+    .timeline-text {
+        flex: 1;
+        text-align: left;
+    }
+    .timeline-state p {
+        display: none;
+    }
+
+    .timeline-liv {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 0;
+    }
+    .footer .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media (max-width: 950px) {
+    .project-container {
+        padding: 45px 64px;
+    }
+    .project-image img {
+        display: none;
+    }
+    header h1 {
+        font-size: 64px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .timeline-content {
+        padding: 10px 32px;
+        gap: 32px;
+    }
+
+    .timeline-text h4 {
+        font-size: 20px;
+    }
+
+    .timeline-text p {
+        display: none;
+    }
+    .skills-tags {
+        align-items: center;
+        justify-content: center;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer .container {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .footer-content .social-links {
+        justify-content: center;
+    }
+}

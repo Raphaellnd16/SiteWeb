@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+	<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Strongbox 3000</title>
+        <link rel="icon" href="../Img/LogoWeb.png" type="image/png">
+        <script src="https://kit.fontawesome.com/b839e491ac.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="../CSS/styleProject.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <button class="close-btn" onclick="window.history.back()"><i class="fas fa-xmark"></i></button>
+        <div class="project-container">
+            <header>
+                <div class="project-image">
+                    <img src="../Img/Img-projects/elec.jpg" alt="Illustration du projet STRONGBOX 3000">
+                </div>
+                <h1>STRONGBOX 3000</h1>
+                <p class="subtitle">Électronique : Langage C • Arduino • Capteurs • Composants électroniques • Tinkercad</p>
+            </header>
+
+            <main>
+                <section class="section">
+                    <h2>Contexte</h2>
+                    <p>
+                        L’agence d’espionnage M17 a subi des vols de matériel sensible à cause de cachettes peu sécurisées. 
+                        Pour y remédier, elle veut développer un coffre-fort nouvelle génération (Strongbox 3000) avec un système d’authentification 
+                        ultra-sécurisé, basé sur une carte électronique personnelle et des mécanismes de validation avancés (interrupteurs, 
+                        pavé numérique, reconnaissance biométrique).
+                    </p>
+                </section>
+
+                <section class="section">
+                    <h2>Mon rôle</h2>
+                    <p>
+                        Au sein de mon groupe de travail, j’ai participé à la conception du montage électronique, à la programmation Arduino en C, ainsi qu’à la rédaction des rapports
+                        techniques. Mon rôle a aussi été d’optimiser le câblage et d’assurer les tests de validation.
+                    </p>
+                </section>
+
+                <section class="section">
+                    <h2>Étapes</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">1</div>
+                                <div class="timeline-text">
+                                    <h4>Circuits logiques et tables de vérité</h4>
+                                    <p>Réalisation des circuits logiques de chaque carte et les tables de vérité</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item" onclick="window.open('../Livrables/Electronique/Electronique_Livrable1.pdf', '_blank')">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">2</div>
+                                <div class="timeline-text">
+                                    <h4>Schémas électriques et montages</h4>
+                                    <p>Schématisation du prototype physique du coffre et de la carte</p>
+                                </div>
+                                <div class="timeline-liv">
+                                    <p><i class="fas fa-download"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">3</div>
+                                <div class="timeline-text">
+                                    <h4>Logigrammes</h4>
+                                    <p>Création des algorithmes d'authenfication</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item" onclick="window.open('../Livrables/Electronique/Electronique_Livrable2.html', '_blank')">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">4</div>
+                                <div class="timeline-text">
+                                    <h4>Schéma complet et programme</h4>
+                                    <p>Programmation en Langage C Arduino du protype et schématisation complète</p>
+                                </div>
+                                <div class="timeline-liv">
+                                    <p><i class="fas fa-download"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">5</div>
+                                <div class="timeline-text">
+                                    <h4>Présentation</h4>
+                                    <p>Présentation orale et démonstration</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Compétences & Technologies</h2>
+                    <div class="skills-tags">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">Langage C</span>
+                        <span class="tag">Conception électronique</span>
+                        <span class="tag">Gestion de projets</span>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-text">
+                        <div class="footer-title">
+                            <div class="title">LINARD Raphaël</div>
+                        </div>
+                        <div class="subtitle">Développeur Web - UX/UI Designer</div>
+                    </div>
+                    <div class="social-links-wrapper">
+                        <div class="social-links">
+                            <a href="https://fr.linkedin.com/in/rapha%C3%ABl-linard-545a2330b?trk=public_post-text" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://github.com/Raphaellnd16" target="_blank" class="social-link"><i class="fa-brands fa-square-github"></i> GitHub</a>
+                            <div class="social-link" onclick="copierEmail('raphael.linard@viacesi.fr')"><i class="fas fa-envelope"></i> Mail</div>
+                            <a href="../Cv.pdf" target="_blank" class="social-link"><i class="fas fa-file"></i> CV</a>
+                        </div>
+                        <span id="message-copie" class="message-copie"></span>
+                    </div>
+                    <p>&copy; 2025 LINARD Raphaël - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

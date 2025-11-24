@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	<title>LINARD Raphaël</title>
+	<link rel="icon" href="Img/LogoWeb.png" type="image/png">
+  	<link rel="stylesheet" href="CSS/index.css"/>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/fcbb8d3402.js" crossorigin="anonymous"></script>
+  	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  	
+  	
+</head>
+<body>
+  	<div class="header">
+      	<a href="index.html" class="title">LINARD Raphaël</a>
+		<!-- Menu burger en version Mobile/Tablette -->
+		<div class="header-mob">
+			<div class="burger-menu">
+				<div class="burger-icon">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<ul class="burger-links">
+					<li><a href="#about" class="nav-link">À propos</a></li>
+					<li><a href="#projectsA" class="nav-link">Projets Académiques</a></li>
+					<li><a href="#projectsP" class="nav-link">Projets Personnels</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+			<a class="nav-button" href="Cv.pdf" target="_blank">Mon CV</a>
+		</div>
+      	<div class="nav">
+        	<a class="nav-link" href="#about">À propos</a>
+        	<a class="nav-link" href="#projectsA">Projets Académiques</a>
+        	<a class="nav-link" href="#projectsP">Projets Personnels</a>
+        	<a class="nav-link" href="#contact">Contact</a>
+			<a class="nav-button" href="Cv.pdf" target="_blank">Mon CV</a>
+      	</div>
+    </div>
+    <div class="home">
+      	<div class="home-content">
+        	<div class="text">
+        		<div class="title">LINARD Raphaël</div>
+      				<b class="subtitle">Développeur Web - UX/UI Designer</b>
+    		</div>
+        	<div class="buttons">
+          		<div class="social-links">
+    				<a href="https://fr.linkedin.com/in/rapha%C3%ABl-linard-545a2330b?trk=public_post-text" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+        			<a href="https://github.com/Raphaellnd16" target="_blank" class="social-link"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+        	</div>
+      	</div>
+        <div class="slider">
+			<div class="slide active">
+				<img src="Img/Img-slider/StreamEasyimg.png" alt="Visuel du concept StreamEasy">
+			</div>
+			<div class="slide">
+				<img src="Img/Img-slider/Logosimg.png" alt="Visuel de création de logos">
+			</div>
+			<div class="slide">
+				<img src="Img/Img-slider/SportsNewsimg.png" alt="Visuel du concept SportsNews">
+			</div>
+			<div class="navigation">
+				<div class="btn active"></div>
+				<div class="btn"></div>
+				<div class="btn"></div>
+			</div>
+		</div>			
+    </div>
+
+    <div class="section" id="about">
+      	<div class="headline">
+    		<b class="section-title">À Propos</b>
+      	</div>
+		<div class="section-content">
+        	<img src="Img/PhotoAbout.png" />
+        	<div class="section-paragraph">
+            	<div class="section-text">
+					Actuellement en 2ᵉ année de cycle préparatoire intégrée au CESI Rouen (option informatique), 
+					je combine un esprit analytique d’ingénieur avec une sensibilité artistique pour concevoir des 
+					expériences web intuitives, esthétiques et performantes. Passionné par le design UX/UI et le 
+					développement front-end, je transforme des idées en solutions digitales complètes (de la maquette 
+					à la ligne de code).
+				</div>
+				<div class="section-text">
+					Depuis le lycée, je crée des concepts de sites web (comme StreamEasy ou mon projet d’actualités 
+					sportives), en maîtrisant chaque étape : design sur Figma, intégration en HTML/CSS/JavaScript, et 
+					optimisation de l’expérience utilisateur.
+				</div>
+				<div class="section-text">
+					Mon approche allie rigueur technique et créativité, avec 
+					un souci constant pour les détails qui font la différence. Curieux, autonome et déterminé, 
+					je cherche à relever de nouveaux défis pour approfondir mes compétences en développement 
+					full-stack et en design d’interface.
+				</div>
+            	<a href="Cv.pdf" target="_blank" class="button-cv">
+                	<p><i class="fas fa-file"></i> Télécharger mon CV</p>
+				</a>
+        	</div>
+    	</div>
+    </div>
+
+    <div class="section" id="projectsA">
+      	<div class="headline">
+        	<b class="section-title">Projets Académiques</b>
+      	</div>
+        <div class="container swiper">
+            <div class="slider-wrapper">
+                <div class="cards-projects-a swiper-wrapper">
+                    <div class="card-project-ac swiper-slide" data-card-id="card1">
+                        <img class="card-image" alt="" src="Img/Img-projects/elec.jpg">	
+                        <div class="card-description">
+                            <div class="text">
+                                <b class="name-project">STRONGBOX 3000</b>
+                                <div class="des-project">Électronique : C Arduino • Algorithme • Circuits</div>
+                            </div>
+                            <button class="button" onclick="window.location.href='HTMLprojects/projectA1.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-project-ac swiper-slide" data-card-id="card2">
+                        <img class="card-image" alt="" src="Img/Img-projects/meca.jpg">   
+                        <div class="card-description">
+                            <div class="text">
+                                <b class="name-project">FAST AND FURIOUS</b>
+                                <div class="des-project">Mécanique : Python • Matplotlib • NumPy • SciPy</div>
+                            </div>
+                            <button class="button" onclick="window.location.href='HTMLprojects/projectA2.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-project-ac swiper-slide" data-card-id="card3">
+                        <img class="card-image" alt="" src="Img/Img-projects/signal.jpg">            
+                        <div class="card-description">
+                            <div class="text">
+                                <b class="name-project">ESCAPE NO GAME</b>
+                                <div class="des-project">Traitement du Signal : Python • SciPy• Ondes</div>
+                            </div>
+                            <button class="button" onclick="window.location.href='HTMLprojects/projectA3.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-project-ac swiper-slide" data-card-id="card4">
+                        <img class="card-image" alt="" src="Img/Img-projects/bdd.jpg">          
+                        <div class="card-description">
+                            <div class="text">
+                                <b class="name-project">CLEAR DATA</b>
+                                <div class="des-project">Modélisation de BDD : SQL • Data • Excel</div>
+                            </div>
+                            <button class="button" onclick="window.location.href='HTMLprojects/projectA4.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-project-ac swiper-slide" data-card-id="card5">
+                        <img class="card-image" alt="" src="Img/Img-projects/sysemb.jpg">           
+                        <div class="card-description">
+                            <div class="text">
+                                <b class="name-project">PROJET 3W</b>
+                                <div class="des-project">Système embarqué : C Arduino • Diagrammes SysML</div>
+                            </div>
+                            <button class="button" onclick="window.location.href='HTMLprojects/projectA5.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<div class="swiper-slide-button swiper-button-prev"></div>
+			<div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+
+		<!-- Cartes projets en version Mobile/Tablette -->
+		<div class="cards-projects-mobile">
+			<div class="section-cards-projects-mob">
+				<div class="card-project-mob">
+					<img class="card-image" alt="" src="Img/Img-projects/elec.jpg">	
+					<div class="card-description">
+						<div class="text">
+							<b class="name-project">STRONGBOX 3000</b>
+							<div class="des-project">Électronique : C Arduino • Algorithme • Circuits</div>
+						</div>
+						<button class="button" onclick="window.location.href='HTMLprojects/projectA1.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+					</div>
+				</div>
+				<div class="card-project-mob">
+					<img class="card-image" alt="" src="Img/Img-projects/meca.jpg">   
+					<div class="card-description">
+						<div class="text">
+							<b class="name-project">FAST AND FURIOUS</b>
+							<div class="des-project">Mécanique : Python • Matplotlib • NumPy • SciPy</div>
+						</div>
+						<button class="button" onclick="window.location.href='HTMLprojects/projectA2.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="section-cards-projects-mob">
+				<div class="card-project-mob hidden">
+					<img class="card-image" alt="" src="Img/Img-projects/signal.jpg">            
+					<div class="card-description">
+						<div class="text">
+							<b class="name-project">ESCAPE NO GAME</b>
+							<div class="des-project">Traitement du Signal : Python • SciPy• Ondes</div>
+						</div>
+						<button class="button" onclick="window.location.href='HTMLprojects/projectA3.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+					</div>
+				</div>
+				<div class="card-project-mob hidden">
+					<img class="card-image" alt="" src="Img/Img-projects/bdd.jpg">          
+					<div class="card-description">
+						<div class="text">
+							<b class="name-project">CLEAR DATA</b>
+							<div class="des-project">Modélisation de BDD : SQL • Data • Excel</div>
+						</div>
+						<button class="button" onclick="window.location.href='HTMLprojects/projectA4.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="section-cards-projects-mob">
+				<div class="card-project-mob hidden">
+					<img class="card-image" alt="" src="Img/Img-projects/sysemb.jpg">           
+					<div class="card-description">
+						<div class="text">
+							<b class="name-project">PROJET 3W</b>
+							<div class="des-project">Système embarqué : C Arduino • Diagrammes SysML</div>
+						</div>
+						<button class="button" onclick="window.location.href='HTMLprojects/projectA5.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+					</div>
+				</div>
+			</div>
+        </div>
+		<button id="voir-plus" class="voir-plus-btn">Voir +</button>
+		<button id="voir-moins" class="voir-moins-btn">Voir -</button>
+    </div>
+
+    <div class="section" id="projectsP">
+      	<div class="headline">
+        	<b class="section-title">Projets Personnels</b>
+      	</div>
+      	<div class="cards-projects-p">
+        	<div class="card-project-ps">
+          		<img class="card-image" alt="" src="Img/Img-projects/StreamEasy.png">
+          		<div class="card-description">
+            		<div class="text">
+              			<b class="name-project">STREAM EASY</b>
+              			<div class="des-project">Développement Web : HTML • CSS • UX/UI Design</div>
+            		</div>
+            		<button class="button" onclick="window.location.href='HTMLprojects/projectP1.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+          		</div>
+        	</div>
+        	<div class="card-project-ps">
+          		<img class="card-image" alt="" src="Img/Img-projects/SportsNews.png">
+          		<div class="card-description">
+            		<div class="text">
+              			<b class="name-project">SPORTS NEWS</b>
+              			<div class="des-project">Développement Web : HTML • CSS • JavaScript</div>
+            		</div>
+            		<button class="button" onclick="window.location.href='HTMLprojects/projectP2.html'">Voir Plus <i class="fa-solid fa-arrow-right-long"></i></button>
+          		</div>
+        	</div>
+        </div>
+    </div>
+
+	<div class="section" id="contact">
+		<div class="headline">
+        	<b class="section-title">Contact</b>
+      	</div>
+		<form id="myForm" class="form__inner" action="https://formspree.io/f/xovyldgy" method="POST">
+			<div class="form__line">
+				<div class="form__block">
+					<label class="form__label">Nom</label>
+					<input class="form__input" type="text" name="name" required>
+				</div>
+				<div class="form__block">
+					<label class="form__label">Prénom</label>
+					<input class="form__input" type="text" name="name" required>
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__block">
+					<label class="form__label">Email</label>
+					<input class="form__input" type="email" name="email" required>
+				</div>
+				<div class="form__block">
+					<label class="form__label">Téléphone (optionnel)</label>
+					<input class="form__input" type="tel" name="phone">
+				</div>
+			</div>
+			<div class="form__line">
+				<div class="form__block_message">
+					<label class="form__label">Votre Message</label>
+					<textarea class="form__input_message" name="message" rows="3" required></textarea>
+				</div>
+			</div>
+			<button class="btn_submit" type="submit">Envoyer</button>
+		</form>
+	</div>
+
+    <div class="footer">
+      	<div class="container">
+        	<div class="footer-content">
+          		<div class="footer-text">
+            		<div class="footer-title">
+              			<div class="title">LINARD Raphaël</div>
+            		</div>
+            		<div class="subtitle">Développeur Web - UX/UI Designer</div>
+          		</div>
+				<div class="social-links-wrapper">
+					<div class="social-links">
+						<a href="https://fr.linkedin.com/in/rapha%C3%ABl-linard-545a2330b?trk=public_post-text" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+						<a href="https://github.com/Raphaellnd16" target="_blank" class="social-link"><i class="fa-brands fa-square-github"></i> GitHub</a>
+						<div class="social-link" onclick="copierEmail('raphael.linard@viacesi.fr')"><i class="fas fa-envelope"></i> Mail</div>
+						<a href="Cv.pdf" target="_blank" class="social-link"><i class="fas fa-file"></i> CV</a>
+					</div>
+					<span id="message-copie" class="message-copie"></span>
+				</div>
+				<p>&copy; 2025 LINARD Raphaël - Tous droits réservés</p>
+        	</div>
+      	</div>
+    </div>
+
+	<script src="JS/BurgerMenu.js"></script>
+    <script src="JS/Slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="JS/Slidecard.js"></script>
+	<script src="JS/Form.js"></script>
+	<script src="JS/CopieEmail.js"></script>
+</body>
+</html>

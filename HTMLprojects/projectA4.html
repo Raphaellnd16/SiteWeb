@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Clear Data</title>
+        <link rel="icon" href="../Img/LogoWeb.png" type="image/png">
+        <script src="https://kit.fontawesome.com/b839e491ac.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="../CSS/styleProject.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <button class="close-btn" onclick="window.history.back()"><i class="fas fa-xmark"></i></button>
+        <div class="project-container">
+            <header>
+                <div class="project-image">
+                    <img src="../Img/Img-projects/bdd.jpg" alt="Illustration du projet STRONGBOX 3000">
+                </div>
+                <h1>CLEAR DATA</h1>
+                <p class="subtitle">Modélisation de Base de Données : Langage SQL • Data • MySQL Workbench • Arbre Algébrique</p>
+            </header>
+
+            <main>
+                <section class="section">
+                    <h2>Contexte</h2>
+                    <p>
+                        Le Ministère de la Transition Écologique a lancé un appel à projet pour développer un outil 
+                        national unifié permettant de stocker, centraliser et analyser les données publiques sur la 
+                        qualité de l’air dans les grandes villes de France. Actuellement, ces données sont éparpillées 
+                        dans différentes agences régionales (comme AirParif, Atmo Nouvelle-Aquitaine, etc.), chacune 
+                        utilisant ses propres formats et méthodes de collecte. L’objectif est de créer une base de données 
+                        globale, accessible et fonctionnelle, qui facilitera le traitement, l’analyse et la visualisation 
+                        de ces informations pour les décideurs publics, les scientifiques et les citoyens.
+                    </p>
+                </section>
+
+                <section class="section">
+                    <h2>Mon rôle</h2>
+                    <p>
+                        Au sein de mon groupe de travail, j’ai participé à la conception de l'infrastructure 
+                        de la Base de Donnée ainsi qu'au peuplement de celle-ci, à la programmation SQL, 
+                        à la création et au nettoyage de données ficitves et enfin à la rédaction des rapports techniques. 
+                    </p>
+                </section>
+
+                <section class="section">
+                    <h2>Étapes</h2>
+                    <div class="timeline">
+                        <div class="timeline-item" onclick="window.open('../Livrables/BDD/BDD_Livrable0.html', '_blank')">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">1</div>
+                                <div class="timeline-text">
+                                    <h4>Planification</h4>
+                                    <p>Présentation du projet et de l'équipe</p>
+                                </div>
+                                <div class="timeline-liv">
+                                    <p><i class="fas fa-download"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item" onclick="window.open('../Livrables/BDD/BDD_Livrable1.html', '_blank')">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">2</div>
+                                <div class="timeline-text">
+                                    <h4>Conception et Modélisation</h4>
+                                    <p>Conception et modélisation de la Base de Données</p>
+                                </div>
+                                <div class="timeline-liv">
+                                    <p><i class="fas fa-download"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item" onclick="window.open('../Livrables/BDD/BDD_Livrable2.html', '_blank')">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">3</div>
+                                <div class="timeline-text">
+                                    <h4>Documentation et Requêtes</h4>
+                                    <p>Requêtes SQL et peuplement</p>
+                                </div>
+                                <div class="timeline-liv">
+                                    <p><i class="fas fa-download"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-content">
+                                <div class="timeline-icon">4</div>
+                                <div class="timeline-text">
+                                    <h4>Présentation</h4>
+                                    <p>Présentation orale et démonstration</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section">
+                    <h2>Compétences & Technologies</h2>
+                    <div class="skills-tags">
+                        <span class="tag">Création de Base de Donnée</span>
+                        <span class="tag">Langage SQL</span>
+                        <span class="tag">MySQL Workbench</span>
+                        <span class="tag">Gestion de projets</span>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-text">
+                        <div class="footer-title">
+                            <div class="title">LINARD Raphaël</div>
+                        </div>
+                        <div class="subtitle">Développeur Web - UX/UI Designer</div>
+                    </div>
+                    <div class="social-links-wrapper">
+                        <div class="social-links">
+                            <a href="https://fr.linkedin.com/in/rapha%C3%ABl-linard-545a2330b?trk=public_post-text" target="_blank" class="social-link"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://github.com/Raphaellnd16" target="_blank" class="social-link"><i class="fa-brands fa-square-github"></i> GitHub</a>
+                            <div class="social-link" onclick="copierEmail('raphael.linard@viacesi.fr')"><i class="fas fa-envelope"></i> Mail</div>
+                            <a href="../Cv.pdf" target="_blank" class="social-link"><i class="fas fa-file"></i> CV</a>
+                        </div>
+                        <span id="message-copie" class="message-copie"></span>
+                    </div>
+                    <p>&copy; 2025 LINARD Raphaël - Tous droits réservés</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
