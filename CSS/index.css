@@ -860,6 +860,7 @@ body {
     }
     .header-mob {
         display: flex;
+		overflow-x: hidden;
     }
     .header {
         padding: 16px 24px;
@@ -872,7 +873,7 @@ body {
     .home {
         flex-direction: column;
 		width: 100%;
-        overflow-x: hidden; 
+        overflow-x: hidden;
     }
     .home-content {
         padding-top: 80px;
@@ -887,9 +888,11 @@ body {
     }
     .home .slider {
         display: none;
+		overflow-x: hidden;
     }
     .section {
 		padding-top: 40px;
+		overflow-x: hidden;
     }
     .section-content img {
         width: 250px;
@@ -901,6 +904,7 @@ body {
     }
 	.container.swiper {
 		display: none;
+		overflow-x: hidden;
 	}
 	.section-cards-projects-mob {
 		display: flex;
@@ -912,6 +916,7 @@ body {
   		justify-content: center;
   		gap: 32px;
   		font-size: 24px;
+		overflow-x: hidden;
 	}
     .cards-projects-p, .cards-projects-mobile {
         flex-direction: column;
