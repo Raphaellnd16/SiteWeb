@@ -5,7 +5,6 @@ body {
 	background-color: #fff;
 	color: #050316;
     line-height: 1.6;
-    overflow-y: hidden;
 }
 ::selection {
 	background-color: #2b48ee;
@@ -160,6 +159,10 @@ header h1 {
   	font-size: 24px;
   	color: #fff;
 }
+.footer::selection {
+	background-color: #fff;
+	color: #2b48ee;
+}
 .footer .container {
   	flex: 1;
   	border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -251,9 +254,6 @@ header h1 {
 }
 
 @media (max-width: 1400px) {
-    bordy {
-        overflow-y: hidden;
-    }
     .project-container {
         padding: 30px 50px;
     }
@@ -306,9 +306,6 @@ header h1 {
 }
 
 @media (max-width: 950px) {
-    bordy {
-        overflow-y: hidden;
-    }
     .project-container {
         padding: 30px 50px;
     }

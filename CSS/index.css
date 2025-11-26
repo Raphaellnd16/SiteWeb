@@ -17,7 +17,6 @@ body {
   	font-size: 24px;
   	color: #000;
   	font-family: 'Inter', sans-serif;
-	overflow-y: hidden;
 }
 .header {
 	position: fixed; 
@@ -461,6 +460,8 @@ body {
 	border-radius: 6px;
 	font-weight: 700;
 	width: 50%;
+	text-decoration: none;
+	color: #000;
 	cursor: pointer;
 	text-align: left;
 	background: transparent;
@@ -576,6 +577,10 @@ body {
   	padding: 0 64px;
   	font-size: 24px;
   	color: #fff;
+}
+.footer::selection {
+	background-color: #fff;
+	color: #2b48ee;
 }
 .container {
   	flex: 1;
@@ -776,7 +781,6 @@ body {
 @media (max-width: 1400px) {
     body {
         font-size: 20px;
-		overflow-y: hidden;
     }
     .nav {
         display: none;
@@ -856,7 +860,6 @@ body {
         font-size: 18px;
 		width: 100%;
         overflow-x: hidden;
-		overflow-y: hidden;
     }
     .nav {
         display: none;
