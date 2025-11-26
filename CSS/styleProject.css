@@ -5,6 +5,7 @@ body {
 	background-color: #fff;
 	color: #050316;
     line-height: 1.6;
+    overflow-y: hidden;
 }
 ::selection {
 	background-color: #2b48ee;
@@ -250,6 +251,9 @@ header h1 {
 }
 
 @media (max-width: 1400px) {
+    bordy {
+        overflow-y: hidden;
+    }
     .project-container {
         padding: 30px 50px;
     }
@@ -302,6 +306,9 @@ header h1 {
 }
 
 @media (max-width: 950px) {
+    bordy {
+        overflow-y: hidden;
+    }
     .project-container {
         padding: 30px 50px;
     }
