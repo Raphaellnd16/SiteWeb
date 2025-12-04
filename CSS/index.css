@@ -817,7 +817,7 @@ body {
     .section-paragraph {
         width: 100%;
 		align-items: center;
-		text-align: justify;
+		text-align: center;
     }
     .container.swiper {
 		display: none;
@@ -866,7 +866,6 @@ body {
     }
     .header-mob {
         display: flex;
-		overflow-x: hidden;
     }
     .header {
         padding: 16px 24px;
