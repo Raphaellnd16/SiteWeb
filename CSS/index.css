@@ -290,6 +290,13 @@ body {
 	line-height: 29px; 
 	word-wrap: break-word;
 }
+
+.section-paragraph .section-btn {
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+}
+
 .section-paragraph .button-cv {
 	margin-top: 20px;
 	width: 300px; 
