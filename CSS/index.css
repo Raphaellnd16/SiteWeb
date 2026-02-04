@@ -263,10 +263,7 @@ body {
 	display: inline-flex;
 }
 .section-content img {
-	width: 362.70px; 
-	height: 362.70px; 
-	background-color: #2b48ee;
-	border-radius: 9999px;
+	width: 20%;
 }
 .section-paragraph {
 	width: 749px; 
