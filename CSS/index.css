@@ -264,6 +264,7 @@ body {
 }
 .section-content img {
 	width: 20%;
+	margin-right: 50px;
 }
 .section-paragraph {
 	width: 749px; 
@@ -275,6 +276,7 @@ body {
 	align-items: flex-start; 
 	gap: 20px; 
 	display: inline-flex;
+	text-align: justify;
 }
 .section-text {
   	align-self: stretch; 
@@ -814,14 +816,12 @@ body {
         flex-direction: column;
         align-items: center;
     }
-    .section-content img {
-        width: 300px;
-        height: 300px;
-    }
+	.section-content img {
+		margin-right: 0;
+	}
     .section-paragraph {
         width: 100%;
 		align-items: center;
-		text-align: center;
     }
     .container.swiper {
 		display: none;
@@ -832,7 +832,7 @@ body {
   		gap: 32px;
   		font-size: 24px;
 	}
-    .cards-projects-p, .cards-projects-mobile {
+    .cards-projects-mobile {
         flex-direction: column;
 		align-items: center;
     }
@@ -903,14 +903,17 @@ body {
 		padding-top: 40px;
 		overflow-x: hidden;
     }
-    .section-content img {
-        width: 250px;
-        height: 250px;
+	.section-content img {
+		width: 40%;
+	}
+    .section-paragraph .section-btn {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
     }
-    .section-paragraph .button-cv {
-        width: 100%;
-        max-width: 300px;
-    }
+	.section-paragraph .button-cv {
+		max-width: 280px;
+	}
 	.container.swiper {
 		display: none;
 		overflow-x: hidden;
@@ -929,6 +932,7 @@ body {
 	}
     .cards-projects-p, .cards-projects-mobile {
         flex-direction: column;
+		align-items: center;
 		justify-content: center;
     }
     .card-project-mob, .card-project-ps {
